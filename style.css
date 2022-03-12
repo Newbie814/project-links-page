@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:ital,wght@0,700;1,300&display=swap');
 
+@font-face {
+  font-family: Typewriter;
+  src: url(STAMPWRITER-KIT.ttf);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,15 +12,72 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Typewriter', sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
+  /* align-items: center;
+  justify-content: center; */
+  /* height: 100vh; */
+  /* overflow: hidden; */
+  /* background-color: #cccccc;
+  background: url('https://res.cloudinary.com/dylvkdabj/image/upload/v1647046805/website%20pics%20family/liam-studebaker_lhq5yk.jpg'); */
+}
+
+.container {
+  background: url('https://res.cloudinary.com/dylvkdabj/image/upload/v1647046805/website%20pics%20family/liam-studebaker_lhq5yk.jpg'),
+    url('https://res.cloudinary.com/dylvkdabj/image/upload/v1647063596/website%20pics%20family/liam-window-sharpened_npompp.jpg');
+  width: 100vw;
+  background-size: contain;
+}
+
+.card {
 }
 
 a {
-  text-decoration: none;
+  /* text-decoration: none; */
+  color: black;
+}
+.heading-text {
+  margin: 1rem auto 5rem;
+  text-align: center;
+}
+.dark-text {
+  color: rgb(29, 29, 29);
+}
+
+.sub-text {
+  font-weight: 900;
+}
+
+.project-link-container {
+  margin-left: 1.5rem;
+  margin-bottom: 4rem;
+  width: 35vw;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: #cccccc;
+  background: url('https://res.cloudinary.com/dylvkdabj/image/upload/v1647050042/website%20pics%20family/old-brown-arctic-texture-image-900x741_mgmxfz.jpg');
+  background-color: white;
+  /* position: relative; */
+}
+
+.project-link-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.664);
+}
+
+.project-name {
+  font-size: 28px;
+  padding-bottom: 16px;
+}
+
+.project-description {
+  font-size: 22px;
+  padding-bottom: 12px;
+}
+
+.link-project {
+  font-size: 18px;
 }
