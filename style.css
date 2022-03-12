@@ -30,16 +30,29 @@ body {
   background-size: contain;
 }
 
-.card {
-}
-
 a {
   /* text-decoration: none; */
   color: black;
 }
+
+.title-line {
+  font-size: 54px;
+  padding-bottom: 11px;
+}
+
+.title-sub {
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.chronological {
+  font-size: 14px;
+}
+
 .heading-text {
   margin: 1rem auto 5rem;
   text-align: center;
+  padding-bottom: 84px;
 }
 .dark-text {
   color: rgb(29, 29, 29);
