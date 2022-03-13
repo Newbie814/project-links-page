@@ -1,4 +1,4 @@
-const nameProject = document.querySelector('.project-name');
+const nameProject = document.querySelector('.name-line');
 const projectDescription = document.querySelector('.project-description');
 const projectLink = document.querySelector('.project-href');
 const projectCard = document.getElementById('arrow-container');
@@ -46,7 +46,7 @@ const projects = [
   {
     name: 'Lil Dude changing a tire',
     description: 'Full photo background with blur to focus animation',
-    link: 'https://github.com/Newbie814/blur-load/settings/pages',
+    link: 'https://newbie814.github.io/blur-load/',
   },
   {
     name: 'Carousel carouselling',
@@ -95,7 +95,7 @@ document
       nameProject.innerHTML = name;
       projectDescription.innerHTML = description;
       projectLink.innerHTML = link;
-      projectLink.setAttribute('href', 'link');
+      projectLink.setAttribute('href', link);
 
       index++;
 

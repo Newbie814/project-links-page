@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+.container-mobile {
+  display: none;
+}
+
 body {
   font-family: 'Typewriter', sans-serif;
   display: flex;
@@ -28,6 +32,21 @@ body {
     url('https://res.cloudinary.com/dylvkdabj/image/upload/v1647063596/website%20pics%20family/liam-window-sharpened_npompp.jpg');
   height: 100vh;
   background-size: cover;
+}
+
+/* .title-sub,
+.view-code,
+.chronological {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.322);
+} */
+
+.title-sub {
+  padding-top: 8px;
+}
+
+.chronological {
+  padding-bottom: 6px;
 }
 
 .project-link-container {
@@ -87,20 +106,149 @@ a {
   color: rgb(29, 29, 29);
 }
 
+#name {
+  margin-bottom: 24px;
+}
+
 .sub-text {
   font-weight: 900;
+  margin-bottom: 12px;
 }
 
 .project-name {
   font-size: 28px;
-  padding-bottom: 16px;
 }
 
 .project-description {
   font-size: 22px;
-  padding-bottom: 12px;
+  margin-bottom: 18px;
+}
+
+.sub-text-description {
+  margin-bottom: 12px;
+  font-weight: 900;
 }
 
 .link-project {
   font-size: 18px;
+}
+
+@media only screen and (max-width: 650px) {
+  .project-link-container {
+    width: 90vw;
+    margin: 35px auto 0;
+    height: 300px;
+  }
+
+  .title-line {
+    color: black;
+    padding-bottom: 0;
+  }
+
+  .project-description {
+    display: none;
+  }
+
+  .project-href {
+    overflow-wrap: break-word;
+  }
+
+  #arrow {
+    width: 73px;
+  }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 651) {
+  .title-sub,
+  .view-code,
+  .chronological {
+    color: white;
+    background-color: #000;
+  }
+
+  .title-sub {
+    padding-top: 9px;
+  }
+
+  .chronological {
+    padding-bottom: 4px;
+  }
+
+  .project-link-container {
+    width: 70vw;
+    margin: 312px auto 0;
+    height: 345px;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 751px) {
+  .title-sub,
+  .view-code,
+  .chronological {
+    color: white;
+    background-color: #000;
+  }
+
+  .project-link-container {
+    width: 80vw;
+    margin: 285px auto 0;
+    height: 330px;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 901px) {
+  .title-sub,
+  .view-code,
+  .chronological {
+    color: white;
+    background-color: #000;
+  }
+
+  .title-sub {
+    padding-top: 9px;
+  }
+
+  .chronological {
+    padding-bottom: 4px;
+  }
+
+  .project-link-container {
+    width: 65vw;
+    margin: 150px auto 0;
+    height: 300px;
+  }
+
+  .sub-text-description {
+    margin-bottom: 12px;
+    font-weight: 900;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .title-line {
+    font-size: 24px;
+  }
+  .title-sub,
+  .view-code,
+  .chronological {
+    color: white;
+    background-color: #000;
+    font-size: 12px;
+  }
+
+  .sub-text-description {
+    display: none;
+  }
+
+  .project-link-container {
+    height: 235px;
+  }
+
+  .name-line {
+    font-size: 22px;
+  }
+
+  .project-href {
+    font-size: 15px;
+  }
 }
