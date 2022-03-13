@@ -158,13 +158,22 @@ a {
   }
 }
 
-@media only screen and (max-width: 750px) and (min-width: 651) {
+@media only screen and (max-width: 1300px) {
   .title-sub,
   .view-code,
   .chronological {
     color: white;
     background-color: #000;
   }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 651) {
+  /* .title-sub,
+  .view-code,
+  .chronological {
+    color: white;
+    background-color: #000;
+  } */
 
   .title-sub {
     padding-top: 9px;
@@ -181,13 +190,29 @@ a {
   }
 }
 
+@media only screen and (min-width: 366) and (max-width: 650px) {
+  .title-sub {
+    padding-top: 9px;
+  }
+
+  .chronological {
+    padding-bottom: 36px;
+  }
+
+  .project-link-container {
+    width: 70vw;
+    margin: 312px auto 0;
+    height: 100px;
+  }
+}
+
 @media only screen and (max-width: 900px) and (min-width: 751px) {
-  .title-sub,
+  /* .title-sub,
   .view-code,
   .chronological {
     color: white;
     background-color: #000;
-  }
+  } */
 
   .project-link-container {
     width: 80vw;
@@ -197,12 +222,12 @@ a {
 }
 
 @media only screen and (max-width: 1300px) and (min-width: 901px) {
-  .title-sub,
+  /* .title-sub,
   .view-code,
   .chronological {
     color: white;
     background-color: #000;
-  }
+  } */
 
   .title-sub {
     padding-top: 9px;
@@ -253,7 +278,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 399px) and (min-width: 340px) {
+@media only screen and (max-width: 365px) and (min-width: 332px) {
   .title-line {
     font-size: 24px;
   }
