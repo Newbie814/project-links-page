@@ -224,7 +224,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 330px) {
   .title-line {
     font-size: 24px;
   }
@@ -242,6 +242,36 @@ a {
 
   .project-link-container {
     height: 235px;
+  }
+
+  .name-line {
+    font-size: 22px;
+  }
+
+  .project-href {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 399px) and (min-width: 340px) {
+  .title-line {
+    font-size: 24px;
+  }
+  .title-sub,
+  .view-code,
+  .chronological {
+    color: white;
+    background-color: #000;
+    font-size: 12px;
+  }
+
+  .sub-text-description {
+    display: none;
+  }
+
+  .project-link-container {
+    height: 235px;
+    margin-top: 215px;
   }
 
   .name-line {
