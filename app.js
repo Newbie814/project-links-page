@@ -80,6 +80,28 @@ const projects = [
     description: "My own personal site. It's a work in progress.",
     link: 'https://newbie814.github.io/personal-training-page/',
   },
+  {
+    name: 'Simple Modal',
+    description:
+      'Action to darken background and focus attention on notification window.',
+    link: 'https://newbie814.github.io/modal-attempt/',
+  },
+  {
+    name: 'SVG Icon Aniamtion',
+    description:
+      'SVG designed and exported in Figma. Movement animation with CSS. Random color on click with JavaScript',
+    link: 'https://newbie814.github.io/animated-icons/',
+  },
+  {
+    name: 'Analog Clock',
+    description: 'Practice working out logic. Designed for one of my sons.',
+    link: 'https://newbie814.github.io/clock-for-liam/',
+  },
+  // {
+  //   name: '',
+  //   description: "",
+  //   link: '',
+  // },
 ];
 
 let index = 1;
