@@ -5,15 +5,34 @@ const projectCard = document.getElementById('arrow-container');
 
 const projects = [
   {
-    name: 'First attempt at personal page.',
-    description: 'Simple page with basic HTML & CSS',
-    link: 'https://newbie814.github.io/cv-update/',
+    name: 'MJ Thomas Art E-commerce site',
+    description:
+      'Fully functioning. Pay system is in sandbox mode. Built with HTML, CSS, React, Bootstrap, Redux, NodeJS, JavaScript MongoDB, Mongoose, Atlas, Postman, PayPal API. Deployed and hosted on Heroku.',
+    link: 'https://mjthomasart.herokuapp.com/',
   },
+  {
+    name: 'Personal Training Website',
+    description: "My own personal site. It's a work in progress.",
+    link: 'http://www.woodard-training.com/',
+  },
+  {
+    name: 'Portfolio',
+    description:
+      'Built on Codesandbox. Deployed via CS through Netlify. Domain is from Google.',
+    link: 'http://www.matthew-woodard.com/',
+  },
+
   {
     name: 'Commercial sales page',
     description:
       'HTML, CSS, Bootstrap. I was following a tutorial. This was a challenge, as a lot of the technologies used were deprecated. I had to research a lot for workarounds.',
     link: 'https://newbie814.github.io/tindog-lesson2/',
+  },
+  {
+    name: 'Quiz App',
+    description:
+      'HTML, CSS, JavaScript. Simple quiz app with radio inputs that checks answers and returns results',
+    link: 'https://newbie814.github.io/quizlet/',
   },
   {
     name: 'High Roll Wins.',
@@ -53,18 +72,7 @@ const projects = [
     description: 'Spinning and separating photo animation',
     link: 'https://newbie814.github.io/connor-carousel-3d-squares/',
   },
-  {
-    name: 'MJ Thomas Art E-commerce site',
-    description:
-      'Fully functioning. Pay system is in sandbox mode. Built with HTML, CSS, React, Bootstrap, Redux, NodeJS, JavaScript MongoDB, Mongoose, Atlas, Postman, PayPal API. Deployed and hosted on Heroku.',
-    link: 'https://mjthomasart.herokuapp.com/',
-  },
-  {
-    name: 'Portfolio',
-    description:
-      'Built on Codesandbox. Deployed via CS through Netlify. Domain is from Google.',
-    link: 'http://www.matthew-woodard.com/',
-  },
+
   {
     name: 'Verification Code',
     description: 'Simple UI screen for inputting 2FA code',
@@ -75,11 +83,7 @@ const projects = [
     description: 'Simple filter to search users',
     link: 'https://newbie814.github.io/live-feed-user-filter',
   },
-  {
-    name: 'Personal Training Website',
-    description: "My own personal site. It's a work in progress.",
-    link: 'https://newbie814.github.io/personal-training-page/',
-  },
+
   {
     name: 'Simple Modal',
     description:
@@ -104,7 +108,7 @@ const projects = [
   // },
 ];
 
-let index = 1;
+let index = 0;
 
 // function flipThroughCards()
 
